@@ -12,18 +12,7 @@ void create() {
     set_long(
 "It is hard to determine what kind of metal this curious blade is made out of.  As you see the entire blade has been painting with %^YELLOW%^c%^CYAN%^h%^GREEN%^a%^BLACK%^o%^BLUE%^t%^RED%^i%^MAGENTA%^c%^RESET%^ stripes in a dazzling variety of colors.  There is no rhyme or reason to the stripes it seems, their size and colors vary at whim.  Some start out wide and taper off to skinny, while others use at least seven different colors just to finish one stripe.  The pommel of this long sword is wrapped with strips of %^CYAN%^basket-woven %^RESET%^cotton, giving plenty of cushions for the hands, and adding to the motley array of colors."
         );
-    set_lore("The Sword of Insanity is an ancient sword from Shadow's "+
-       "past.  The sword in truth was made somewhere in the second or "+
-       "third century and was deemed a holy blade to the deity of Good "+
-       "Fortune then, Tymora.  Sages believe that this is indeed the "+
-       "same Tymora that has made a return to the lands in recent years."+
-       "  The blade was a favored weapon for all of Tymora's followers, "+
-       "for it offered a comical appeal in the middle of battle and "+
-       "just when the Tymorian needed a bit of good luck it seemed to "+
-       "come to them.  Though more rigid and serious folks called the "+
-       "sword insane and said only an insane man would trust in it in "+
-       "battle.  Thus its name was born.  For Good Fortune favors the "+
-       "foolish sometimes, they say.");
+    set_lore("%^C140%^The %^C135%^Sword %^C140%^of %^C147%^Insanity %^C140%^is an %^C098%^ancient %^C081%^sword %^C140%^from %^C117%^Shadow's %^C140%^past. The %^C123%^sword %^C140%^in truth was made somewhere in the second or third %^C098%^century %^C140%^and was deemed a %^C081%^holy %^C140%^blade to the %^C117%^deity %^C140%^of %^C123%^Good Fortune%^C140%^, in this day and age it is %^C081%^Callamir. The %^C135%^blade %^C140%^is now a days a %^C147%^favored %^C140%^weapon for %^C098%^Callamir's %^C140%^followers, as it offers a %^C081%^comical %^C140%^appeal in the middle of battle and just when the %^C117%^Jesters %^C140%^needs a bit of %^C123%^good %^C140%^luck it seemed to come to them. Though more %^C135%^rigid and %^C147%^serious %^C140%^folks called the %^C098%^sword %^C140%^insane%^C140%^ and said only an %^C081%^insane %^C140%^man would trust in it in battle. Thus its %^C117%^name %^C140%^was born. For %^C123%^Good Fortune %^C140%^favors the %^C135%^foolish %^C140%^sometimes, they say.%^RESET%^");
     set_property("lore difficulty",9);
     set_value(100);
     set_hit((: TO, "extra_hit":));
