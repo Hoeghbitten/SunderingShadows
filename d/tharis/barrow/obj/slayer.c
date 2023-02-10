@@ -34,12 +34,7 @@ void create() {
   set_unwield((:TO,"removeme":));
   set_prof_type("slayer");
   set_prof_level(18);  // I'm not sure this actually does anything *Styx* 12/12/03
-  set_lore("%^WHITE%^%^BOLD%^Only faint rumours remain concerning the origins of this powerful artifact.  "
-"They tell of a Tyrran paladin, who was once a guardian of the temple within Azha.  Upon a holy quest, he "
-"was sent to purge the evil from a graveyard outside the city, but never returned.  It is said that the "
-"power of the Dark Sun consumed him there, warping his mind and body, and taking possession of the holy "
-"sword he once carried proudly.  This blade is thought by some to be the same sword, twisted by evil into "
-"an instrument of strife and murder.%^RESET%^");
+  set_lore("%^BOLD%^BLACK%^Only faint rumours remain concerning the origins of this powerful artifact. They tell of a %^CYAN%^Kreysneothosies %^WHITE%^paladin%^BLACK%^, who was once a guardian of the temple within Azha. Upon a holy quest, he was sent to purge the evil from a graveyard outside the city, but never returned. It is said that the power of the %^RESET%^%^WHITE%^Lord Shadow%^BOLD%^%^BLACK%^ consumed him there, warping his mind and body, and taking possession of the holy sword he once carried proudly. This blade is thought by some to be the same sword, twisted by evil into an instrument of strife and murder.%^RESET%^");
   set_property("lore difficulty",15);
 }
 
