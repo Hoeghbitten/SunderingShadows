@@ -9,11 +9,7 @@ void create()
     "o%^BOLD%^%^WHITE%^s%^BLUE%^"+
     "t%^BOLD%^%^WHITE%^b%^BLUE%^i%^BOLD%^%^WHITE%^t%^BLUE%^e%^RESET%^");
     set_long((:to_object(base_name(TO)), "mylong":));
-    set_lore("%^BOLD%^%^BLUE%^During one of the most brutal %^WHITE%^winters%^BOLD%^%^BLUE%^ that Deku has ever seen in Winterstime, "+
-	"660SG a ranger of Auril was assigned to eliminate a %^BOLD%^%^GREEN%^chosen of Silvanus%^BLUE%^. During the winter, the rangers "+
-	"battled across the frozen Shadowlord forest until the Aurilite made an error in judgement, trusting werewolves to aid him in an "+
-	"ambush. The drow leading the ambush wished to wield the Aurilites impressive sickle, stabbing him and taking the sickle, leaving "+
-	"the dying man to face his foe alone.%^RESET%^");
+    set_lore("%^C109%^The %^C123%^Sickle %^C109%^of %^C032%^Frostbite %^C109%^is an ancient %^C153%^relic %^C109%^said to have been created by the %^C032%^Frost Giants %^C109%^of old. It is said that the %^C123%^weapon %^C109%^was imbued with their %^C123%^power, %^C109%^capable of freezing anything it touched and sending chills through even the most hardened of hearts. In recent years, %^C123%^adventurers %^C109%^have braved the %^C123%^depths %^C109%^of %^C032%^Keep Blacktongue %^C109%^and uncovered the %^C123%^Sickle %^C109%^of %^C032%^Frostbite. Those who have held the %^C123%^weapon %^C109%^have reported feeling an icy %^C123%^chill %^C109%^emanating from the %^C123%^blade, %^C109%^and many have been driven mad by its %^C123%^power.%^C109%^.%^RESET%^");
     set_property("enchantment",3);
     set_value(2000);
     set_wield((:TO,"wield_me":));
